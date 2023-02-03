@@ -1,7 +1,7 @@
-#this will be the run file
-#file created on 2/2/23
-#first commit from replit
-#testing to see if it works
+#this tool will take input in the form of an array of strings
+#it then processes the strings and provides output in the 
+#form of the original string, the sentiment score and the final
+#analysis in the form of positive, negative, or neutral
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 #from nltk.tokenize import word_tokenize - not needed bc of array? Does 'tokenize' mean to create a an array of the stings given as inputs?
